@@ -1,0 +1,14 @@
+:root{
+    /**Brand Colors*/
+    --brand-color-green: #04c35c;
+    --brand-color-blue: #2b6cb0;
+
+    /*Dark Scale*/
+    --dark-10: #1a202c;
+    --dark-20: #f7fafc;
+    --dark-30: #ffffff;
+
+    /*Fonts*/
+    --primary-font: 'Merriweather', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+}

@@ -1,0 +1,135 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+
+    display: flex;
+}
+
+.section-image,
+.section-form {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*================*/
+/**SECTION IMAGE**/
+/*================*/
+
+.section-image {
+    background-color: var(--dark-20);
+}
+
+/*================*/
+/**SECTION FORM**/
+/*================*/
+
+.section-form {
+    flex-direction: column;
+}
+
+.section-form .top {
+    margin-bottom: 3.9rem;
+    display: block;
+}
+
+.section-form .top .tag {
+    color: var(--dark-10);
+    font-size: 1.6rem;
+}
+
+.section-form .top .title {
+    color: var(--dark-10);
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0.7rem;
+}
+
+.section-form .form .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.section-form .form .form-container .label-email,
+.section-form .form .form-container .label-password {
+    color: var(--dark-10);
+    font-size: 1.6rem;
+    margin-bottom: 1.1rem;
+}
+
+.section-form .form .form-container .input-email,
+.section-form .form .form-container .input-password {
+    font-size: 1.4rem;
+    border: 0.2rem solid #E8E8E8;
+    border-radius: 0.4rem;
+
+    padding: 1rem 16rem 1rem 1rem;
+}
+
+.section-form .form .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.6rem;
+}
+
+.section-form .form .remember-me .checkbox {
+    margin-right: 1rem;
+}
+
+.section-form .form .remember-me .checkbox span {
+    font-size: 1.4rem;
+}
+
+.section-form .form .remember-me .link {
+    font-size: 1.4rem;
+}
+
+.section-form .form .buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-form .form .buttons .btn-login {
+    display: inline-block;
+    color: var(--dark-30);
+    background-color: var(--brand-color-green);
+    padding: 1.5rem 20rem;
+    border-radius: 0.5rem;
+
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    margin-bottom: 1.5rem;
+}
+
+.section-form .form .buttons .btn-google {
+    background-color: var(--dark-10);
+    display: flex;
+    align-items: center;
+    margin-bottom: 16rem;
+}
+
+.section-form .form .buttons .btn-google img {
+    margin-right: 1rem;
+}
+
+.section-form .form .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-form .form .register span,
+.section-form .form .register .link {
+    font-size: 1.4rem;
+}
+
+.section-form .form .register .link {
+    margin-left: 1rem;
+}
