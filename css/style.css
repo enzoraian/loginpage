@@ -1,18 +1,18 @@
-body {
-    height: 100vh;
-    overflow-y: hidden;
-
+body { 
     display: flex;
 }
 
 .section-image,
 .section-form {
-    width: 50%;
+    width: 100%;
+    max-width: 700rem;
     height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    padding: 0 1.5rem;
 }
 
 /*================*/
@@ -98,7 +98,6 @@ body {
     display: inline-block;
     color: var(--dark-30);
     background-color: var(--brand-color-green);
-    padding: 1.5rem 20rem;
     border-radius: 0.5rem;
 
     font-family: var(--secondary-font);
@@ -106,11 +105,16 @@ body {
     font-weight: bold;
 
     margin-bottom: 1.5rem;
+
+    width: 100%;
+    max-width: 50rem;
+    padding: 1.5rem 0rem;
 }
 
 .section-form .form .buttons .btn-google {
     background-color: var(--dark-10);
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 16rem;
 }

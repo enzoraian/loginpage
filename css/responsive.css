@@ -1,19 +1,32 @@
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {}
 
-}
-
-@media (max-width: 991px) {
-
-}
+@media (max-width: 991px) {}
 
 @media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
 
+    .section-image{
+        height: fit-content;
+        padding: 2rem;
+    }
+
+    .section-image img{
+        width: 40rem;
+       
+    }
 }
 
-@media (max-width: 600px) {
-
-}
+@media (max-width: 600px) {}
 
 @media (max-width: 480px) {
 
+    .section-form{
+        padding: 4rem 0;
+    }
+
+    .section-form .form .buttons .btn-login{
+        margin-bottom: 8rem;
+    }
 }
